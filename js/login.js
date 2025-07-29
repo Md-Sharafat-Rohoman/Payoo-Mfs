@@ -8,7 +8,7 @@ document.getElementById('button-login').addEventListener('click',function(event)
     const pinNumber = document.getElementById('pin-number').value;
     console.log(pinNumber);
 
-    if(phoneNumber === '5' && pinNumber === '1234'){
+    if(phoneNumber === '01615879508' && pinNumber === '1234'){
         console.log('your are login in');
         window.location.href = '/home.html'
     }
